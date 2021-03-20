@@ -1,0 +1,25 @@
+{
+    "short_name": "Eco Stats Perú",
+    "name": "Eco Stats Perú",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "32x32 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "android-icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "android-icon-36x36.png",
+            "type": "image/png",
+            "sizes": "36x36"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

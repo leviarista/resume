@@ -1,30 +1,31 @@
 <script>
-	export let name;
+    import Presentation from "./components/Presentation.svelte";
+
+    export let name;
+    export let lastName;
+    export let linkedin;
+    export let github;
+    export let gitlab;
+    export let stackoverflow;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+    <Presentation
+        {name}
+        {lastName}
+        {linkedin}
+        {github}
+        {gitlab}
+        {stackoverflow}
+    />
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+    main {
+        margin: 0 auto;
+        /* padding: 0 2px; */
+        font-family: var(--text-font);
+        font-size: 1rem;
+        /* text-align: center; */
+    }
 </style>
