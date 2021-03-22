@@ -10,8 +10,8 @@
 <header class="presentation">
     <div class="black-top" />
     <div class="profile">
-        <img class="profile-pic" src="/img/profile.png" alt="" />
-        <img class="mushroom" src="/img/mushroom.png" alt="" />
+        <img class="profile-pic" src="img/profile.png" alt="" />
+        <img class="mushroom" src="img/mushroom.png" alt="" />
     </div>
     <div class="about">
         <div class="info">
@@ -24,30 +24,30 @@
         </div>
         <div class="social">
             <a href={linkedin} target="_blank" rel="noopenner noreferrer">
-                <img src="/img/icons/linkedin.svg" alt="" />
+                <img src="img/icons/linkedin.svg" alt="linkedin-logo" />
             </a>
             <a href={github} target="_blank" rel="noopenner noreferrer">
-                <img src="/img/icons/github.svg" alt="" />
+                <img src="img/icons/github.svg" alt="github-logo" />
             </a>
             <a href={gitlab} target="_blank" rel="noopenner noreferrer">
-                <img src="/img/icons/gitlab.svg" alt="" />
+                <img src="img/icons/gitlab.svg" alt="gitlab-logo" />
             </a>
             <a href={stackoverflow} target="_blank" rel="noopenner noreferrer">
-                <img src="/img/icons/stackoverflow.svg" alt="" />
+                <img src="img/icons/stackoverflow.svg" alt="stackoverflow-logo" />
             </a>
         </div>
     </div>
     <div class="contact">
         <div>
-            <img src="/img/icons/peru.svg" alt="" />
+            <img src="img/icons/peru.svg" alt="peru-logo" />
             Cajamarca, Perú
         </div>
         <div>
-            <img src="/img/icons/mail.svg" alt="" />
+            <img src="img/icons/mail.svg" alt="mail-logo" />
             levi.arista@gmail.com
         </div>
         <div>
-            <img src="/img/icons/whatsapp.svg" alt="" />
+            <img src="img/icons/whatsapp.svg" alt="whatsapp-logo" />
             +51 931 416 152
         </div>
     </div>
@@ -55,10 +55,21 @@
 
 <style>
     .presentation {
+        background: url("img/texture-card-6.jpg");
+        background: url("img/texture-card-5.jpg");
+        background: url("img/texture-card-7.jpg");
+        background: url("img/texture-card-2.jpg");
+        background: url("img/texture-card.png");
+        background: url("img/texture-card-4.jpg");
+        background: url("img/texture-card-3.jpg");
+        background: url("img/texture-card-b.png");
+        /* background-size: cover; */
+        /* background-position: center; */
+        background-repeat: repeat;
         height: 100vh;
     }
     .profile {
-        padding: var(--general-padding);
+        padding: 0 5%;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -66,11 +77,11 @@
     }
     .about {
         width: 100%;
-        padding: var(--general-padding);
+        padding: 0 5%;
         position: absolute;
         bottom: 115px;
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: space-between;
     }
     .about .info h1 {
@@ -86,7 +97,7 @@
     .contact {
         width: 100%;
         height: 115px;
-        padding: var(--general-padding);
+        padding: 0 5%;
         position: absolute;
         bottom: 0;
         display: flex;
@@ -110,6 +121,7 @@
             z-index: 10;
         }
         .profile {
+            padding: var(--general-mobile-padding);
             padding-top: 5%;
             position: relative;
             z-index: 100;
@@ -125,9 +137,15 @@
             bottom: 155px;
             flex-direction: column;
         }
+        .about .info h1 {
+            font-size: 2.25rem;
+        }
         .about .info p {
             display: flex;
             flex-direction: column;
+        }
+        .social{
+            text-align: center;
         }
         .contact {
             height: 145px;
