@@ -139,7 +139,7 @@
         border-radius: 10px;
     }
     .experience article div .tech-badge {
-        line-height: 1.5rem;
+        line-height: 2rem;
         padding: 2px 10px;
         font-size: 15px;
         white-space: nowrap;

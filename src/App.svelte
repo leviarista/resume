@@ -3,7 +3,9 @@
     import Experience from "./components/Experience.svelte";
     import Education from "./components/Education.svelte";
     import Skills from "./components/Skills.svelte";
+    import Projects from "./components/Projects.svelte";
     import Footer from "./components/Footer.svelte";
+    import Mushroom from "./components/Mushroom.svelte";
 
     export let name;
     export let lastName;
@@ -25,6 +27,8 @@
     <Experience />
     <Education />
     <Skills />
+    <Projects />
+    <Mushroom />
     <Footer {name} {lastName} {linkedin} {github} {gitlab} {stackoverflow} />
 </main>
 

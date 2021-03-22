@@ -5,7 +5,7 @@ html, body {
 }
 
 a {
-	color: rgb(0, 100, 200);
+	color: var(--text-main-color);
 	text-decoration: none;
 }
 
@@ -14,7 +14,7 @@ a:hover {
 }
 
 a:visited {
-	color: rgb(0, 80, 160);
+	color: var(--text-main-color);
 }
 
 label {
@@ -72,7 +72,7 @@ button:focus {
 	--background-alternate-color: var(--silver);
 	/* ***************** Fonts ***************** */
 	--headings-font: "Quattrocento", serif;
-	--text-font: "Quattrocento Sans", sans-serif;
+	--text-font: "Jost", sans-serif;
 	/* ***************** Paddings & Margins ***************** */
 	--general-padding: 0 10%;
 	--general-mobile-padding: 0 5%;

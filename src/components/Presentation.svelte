@@ -55,14 +55,14 @@
 
 <style>
     .presentation {
-        background: url("img/texture-card-6.jpg");
-        background: url("img/texture-card-5.jpg");
-        background: url("img/texture-card-7.jpg");
-        background: url("img/texture-card-2.jpg");
-        background: url("img/texture-card.png");
-        background: url("img/texture-card-4.jpg");
-        background: url("img/texture-card-3.jpg");
-        background: url("img/texture-card-b.png");
+        background: url("../img/texture-card-6.jpg");
+        background: url("../img/texture-card-5.jpg");
+        background: url("../img/texture-card-7.jpg");
+        background: url("../img/texture-card-2.jpg");
+        background: url("../img/texture-card.png");
+        background: url("../img/texture-card-4.jpg");
+        background: url("../img/texture-card-3.jpg");
+        background: url("../img/texture-card-b.png");
         /* background-size: cover; */
         /* background-position: center; */
         background-repeat: repeat;
