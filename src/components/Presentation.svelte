@@ -10,8 +10,8 @@
 <header class="presentation">
     <div class="black-top" />
     <div class="profile">
-        <img class="profile-pic" src="/img/profile.png" alt="" />
-        <img class="mushroom" src="/img/mushroom.png" alt="" />
+        <img class="profile-pic" src="img/profile.png" alt="" />
+        <img class="mushroom" src="img/mushroom.png" alt="" />
     </div>
     <div class="about">
         <div class="info">
@@ -24,30 +24,30 @@
         </div>
         <div class="social">
             <a href={linkedin} target="_blank" rel="noopenner noreferrer">
-                <img src="/img/icons/linkedin.svg" alt="linkedin-logo" />
+                <img src="img/icons/linkedin.svg" alt="linkedin-logo" />
             </a>
             <a href={github} target="_blank" rel="noopenner noreferrer">
-                <img src="/img/icons/github.svg" alt="github-logo" />
+                <img src="img/icons/github.svg" alt="github-logo" />
             </a>
             <a href={gitlab} target="_blank" rel="noopenner noreferrer">
-                <img src="/img/icons/gitlab.svg" alt="gitlab-logo" />
+                <img src="img/icons/gitlab.svg" alt="gitlab-logo" />
             </a>
             <a href={stackoverflow} target="_blank" rel="noopenner noreferrer">
-                <img src="/img/icons/stackoverflow.svg" alt="stackoverflow-logo" />
+                <img src="img/icons/stackoverflow.svg" alt="stackoverflow-logo" />
             </a>
         </div>
     </div>
     <div class="contact">
         <div>
-            <img src="/img/icons/peru.svg" alt="peru-logo" />
+            <img src="img/icons/peru.svg" alt="peru-logo" />
             Cajamarca, Perú
         </div>
         <div>
-            <img src="/img/icons/mail.svg" alt="mail-logo" />
+            <img src="img/icons/mail.svg" alt="mail-logo" />
             levi.arista@gmail.com
         </div>
         <div>
-            <img src="/img/icons/whatsapp.svg" alt="whatsapp-logo" />
+            <img src="img/icons/whatsapp.svg" alt="whatsapp-logo" />
             +51 931 416 152
         </div>
     </div>
@@ -55,14 +55,14 @@
 
 <style>
     .presentation {
-        background: url("/img/texture-card-6.jpg");
-        background: url("/img/texture-card-5.jpg");
-        background: url("/img/texture-card-7.jpg");
-        background: url("/img/texture-card-2.jpg");
-        background: url("/img/texture-card.png");
-        background: url("/img/texture-card-4.jpg");
-        background: url("/img/texture-card-3.jpg");
-        background: url("/img/texture-card-b.png");
+        background: url("img/texture-card-6.jpg");
+        background: url("img/texture-card-5.jpg");
+        background: url("img/texture-card-7.jpg");
+        background: url("img/texture-card-2.jpg");
+        background: url("img/texture-card.png");
+        background: url("img/texture-card-4.jpg");
+        background: url("img/texture-card-3.jpg");
+        background: url("img/texture-card-b.png");
         /* background-size: cover; */
         /* background-position: center; */
         background-repeat: repeat;

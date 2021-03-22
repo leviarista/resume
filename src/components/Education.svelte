@@ -5,7 +5,7 @@
     <h2>Education</h2>
     <div class="education-history">
         <article>
-            <img src="/img/education/unc.png" alt="unc-logo" />
+            <img src="img/education/unc.png" alt="unc-logo" />
             <p>
                 <b>Bachelor in Systems Engineering</b><br />
                 National University of Cajamarca<br />
@@ -13,7 +13,7 @@
             </p>
         </article>
         <article>
-            <img src="/img/education/usa.png" alt="us-embassy" />
+            <img src="img/education/usa.png" alt="us-embassy" />
             <p>
                 <b>English Access Microscholarship Program</b><br />
                 from U.S.Embassy at ICPNA<br />

@@ -14,17 +14,17 @@
     </div>
     <div class="social">
         <a href={linkedin} target="_blank" rel="noopenner noreferrer">
-            <img src="/img/icons/linkedin-30.svg" alt="linkedin-logo" />
+            <img src="img/icons/linkedin-30.svg" alt="linkedin-logo" />
         </a>
         <a href={github} target="_blank" rel="noopenner noreferrer">
-            <img src="/img/icons/github-30.svg" alt="github-logo" />
+            <img src="img/icons/github-30.svg" alt="github-logo" />
         </a>
         <a href={gitlab} target="_blank" rel="noopenner noreferrer">
-            <img src="/img/icons/gitlab-30.svg" alt="gitlab-logo" />
+            <img src="img/icons/gitlab-30.svg" alt="gitlab-logo" />
         </a>
         <a href={stackoverflow} target="_blank" rel="noopenner noreferrer">
             <img
-                src="/img/icons/stackoverflow-30.svg"
+                src="img/icons/stackoverflow-30.svg"
                 alt="stackoverflow-logo"
             />
         </a>

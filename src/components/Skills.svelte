@@ -99,7 +99,7 @@
         line-break: auto;
     }
     .skills article .tech-item.favorite::before {
-        content: url("/img/icons/star.svg");
+        content: url("img/icons/star.svg");
         margin-right: 5px;
     }
     @media (max-width: 600px) {

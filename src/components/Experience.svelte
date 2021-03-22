@@ -8,7 +8,7 @@
             <article>
                 <p><i>February 2020 - Present</i></p>
                 <div>
-                    <img src="/img/experience/ms4m.png" alt="ms4m-logo" />
+                    <img src="img/experience/ms4m.png" alt="ms4m-logo" />
                     <p>
                         <b>Software Development Engineer</b><br />
                         Mine Sense for Miners<br />
@@ -24,7 +24,7 @@
             <article>
                 <p><i>December 2018 - February 2020</i></p>
                 <div>
-                    <img src="/img/experience/ms4m.png" alt="ms4m-logo" />
+                    <img src="img/experience/ms4m.png" alt="ms4m-logo" />
                     <p>
                         <b>FMS Administrator & Applications Analyst</b><br />
                         Mine Sense for Miners [for GoldFields La Cima]<br />
@@ -42,7 +42,7 @@
             <article>
                 <p><i>February 2018 - November 2018</i></p>
                 <div>
-                    <img src="/img/experience/ms4m.png" alt="ms4m-logo" />
+                    <img src="img/experience/ms4m.png" alt="ms4m-logo" />
                     <p>
                         <b>Junior Systems Engineer</b><br />
                         Mine Sense for Miners<br />
@@ -56,7 +56,7 @@
             <article>
                 <p><i>March 2017 - December 2017</i></p>
                 <div>
-                    <img src="/img/experience/upagu.png" alt="upagu-logo" />
+                    <img src="img/experience/upagu.png" alt="upagu-logo" />
                     <p>
                         <b>Developer</b><br />
                         Antonio Guillermo Urrelo Private University<br />
@@ -73,7 +73,7 @@
             <article>
                 <p><i>March 2017 - December 2017</i></p>
                 <div>
-                    <img src="/img/experience/didepti.png" alt="didepti-logo" />
+                    <img src="img/experience/didepti.png" alt="didepti-logo" />
                     <p>
                         <b>Developer</b><br />
                         DIDEPTI<br />
@@ -86,7 +86,7 @@
             <article>
                 <p><i>March 2017 - February 2020</i></p>
                 <div>
-                    <img src="/img/experience/okidoki.png" alt="okidoki-logo" />
+                    <img src="img/experience/okidoki.png" alt="okidoki-logo" />
                     <p>
                         <b>Developer</b><br />
                         Okidoki SAC<br />
@@ -99,7 +99,7 @@
             <article>
                 <p><i>03/2015, 08/2015, 05/2018, 09/2018</i></p>
                 <div>
-                    <img src="/img/experience/inei.png" alt="inei-logo" />
+                    <img src="img/experience/inei.png" alt="inei-logo" />
                     <p>
                         <b>IT Operator for national evaluations of teachers</b
                         ><br />
@@ -121,7 +121,6 @@
     .experience h2 {
         margin-top: 0;
         margin-bottom: 25px;
-        text-align: center;
     }
     .experience .experience-history {
         display: flex;
