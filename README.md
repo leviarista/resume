@@ -63,7 +63,7 @@ SOFTWARE.
 Este es el proyecto del resumé de Leví.
 ## Tech Stack
 
-Este proyecto está construido con [Svelte] (https://svelte.dev).
+Este proyecto está construido con [Svelte](https://svelte.dev).
 
 ## Empezar
 
