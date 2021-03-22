@@ -1,5 +1,9 @@
 <script>
     import Presentation from "./components/Presentation.svelte";
+    import Experience from "./components/Experience.svelte";
+    import Education from "./components/Education.svelte";
+    import Skills from "./components/Skills.svelte";
+    import Footer from "./components/Footer.svelte";
 
     export let name;
     export let lastName;
@@ -18,6 +22,10 @@
         {gitlab}
         {stackoverflow}
     />
+    <Experience />
+    <Education />
+    <Skills />
+    <Footer {name} {lastName} {linkedin} {github} {gitlab} {stackoverflow} />
 </main>
 
 <style>

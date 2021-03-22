@@ -61,6 +61,7 @@ button:focus {
 :root {
 	/* ***************** Colors ***************** */
 	--black: #000000;
+	--other: #22798e;
 	--white: #ffffff;
 	--silver: #c4c4c4;
 	/* ***************** Color Categories ***************** */
@@ -73,7 +74,8 @@ button:focus {
 	--headings-font: "Quattrocento", serif;
 	--text-font: "Quattrocento Sans", sans-serif;
 	/* ***************** Paddings & Margins ***************** */
-	--general-padding: 0 5%;
+	--general-padding: 0 10%;
+	--general-mobile-padding: 0 5%;
 }
 
 /* Body */
@@ -124,6 +126,10 @@ html {
 
 h1, h2, h3, h4 {
 	font-family: var(--headings-font);
+}
+
+h2 {
+	font-size: 2rem;
 }
 
 /* Images */
