@@ -76,7 +76,7 @@ cd resume
 npm install
 ```
 
-Luego, inicia [Rollup] (https://rollupjs.org):
+Luego, inicia [Rollup](https://rollupjs.org):
 
 ```bash
 npm run dev
