@@ -16,6 +16,7 @@
                         <span class="tech-badge">React.js</span>
                         <span class="tech-badge">Express.js</span>
                         <span class="tech-badge">PostgreSQL</span>
+                        <span class="tech-badge">Sails.js</span>
                         <span class="tech-badge">Java</span>
                         <span class="tech-badge">Python</span>
                     </p>

@@ -74,4 +74,11 @@
             transform: scale(1, 1);
         }
     }
+    @media (max-width: 600px) {
+        .learning {
+            padding: var(--general-mobile-padding);
+            padding-top: 6%;
+            padding-bottom: 6%;
+        }
+    }
 </style>

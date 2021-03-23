@@ -10,7 +10,8 @@
                 <div>
                     <span class="tech-item favorite">HTML</span>
                     <span class="tech-item favorite">CSS</span>
-                    <span class="tech-item">JavaScript</span>
+                    <span class="tech-item favorite">JavaScript</span>
+                    <span class="tech-item">Sass</span>
                     <span class="tech-item">JQuery</span>
                 </div>
                 <div>
@@ -54,7 +55,6 @@
                 <div>
                     <span class="tech-item">Docker</span>
                     <span class="tech-item">Jenkins</span>
-                    <span class="tech-item">Git</span>
                 </div>
             </article>
             <article>

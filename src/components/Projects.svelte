@@ -54,7 +54,14 @@
                 </div>
             </div>
             <div class="card-body">
-                Winner project of the New Relic Hack the Planet Contest. <br />
+                Winner project of the
+                <a
+                    href="https://www.therelicans.com/therelicans/hack-the-planet-contest-winners-announced-22po"
+                    target="_blank"
+                    rel="noopenner noreferrer"
+                >
+                    New Relic Hack the Planet Contest.
+                </a><br />
                 Eco Stats Perú is a website aims to list solutions and show data
                 that raise awareness about how Peruvians are influencing our environment,
                 how we impact its resources and how we influence climate change,
@@ -190,7 +197,8 @@
                 </div>
             </div>
             <div class="card-body">
-                Website for the Law Students Association: "Círculo de Estudios Logos y Ethos".
+                Website for the Law Students Association: "Círculo de Estudios
+                Logos y Ethos".
             </div>
         </article>
     </div>
