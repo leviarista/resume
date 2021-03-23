@@ -61,14 +61,16 @@ button:focus {
 :root {
 	/* ***************** Colors ***************** */
 	--black: #000000;
-	--other: #22798e;
 	--white: #ffffff;
 	--silver: #c4c4c4;
+	--jelly-bean: #22798e;
+	--cloud-burst: #1D3040;
+	--french-gray: #BFC2C7;
 	/* ***************** Color Categories ***************** */
 	--text-main-color: var(--black);
 	--text-secondary-color: var(--white);
 	--background-main-color: var(--white);
-	--background-secondary-color: var(--black);
+	--background-secondary-color: var(--cloud-burst);
 	--background-alternate-color: var(--silver);
 	/* ***************** Fonts ***************** */
 	--headings-font: "Quattrocento", serif;
