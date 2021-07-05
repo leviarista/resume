@@ -192,7 +192,6 @@
                         <span class="tech-badge">Laravel</span>
                         <span class="tech-badge">Sass</span>
                         <span class="tech-badge">MySql</span>
-                        <span class="tech-badge gray">In construction</span>
                     </div>
                 </div>
             </div>

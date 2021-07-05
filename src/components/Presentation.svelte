@@ -33,7 +33,10 @@
                 <img src="img/icons/gitlab.svg" alt="gitlab-logo" />
             </a>
             <a href={stackoverflow} target="_blank" rel="noopenner noreferrer">
-                <img src="img/icons/stackoverflow.svg" alt="stackoverflow-logo" />
+                <img
+                    src="img/icons/stackoverflow.svg"
+                    alt="stackoverflow-logo"
+                />
             </a>
         </div>
     </div>
@@ -43,12 +46,16 @@
             Cajamarca, Perú
         </div>
         <div>
-            <img src="img/icons/mail.svg" alt="mail-logo" />
-            levi.arista@gmail.com
+            <a href="mailto:levi.arista@gmail.com" target="_blank" rel="noopenner noreferrer">
+                <img src="img/icons/mail.svg" alt="mail-logo" />
+                levi.arista@gmail.com
+            </a>
         </div>
         <div>
-            <img src="img/icons/whatsapp.svg" alt="whatsapp-logo" />
-            +51 931 416 152
+            <a href="https://api.whatsapp.com/send?phone=51931416152&text=Hi%20Leví%20👋" target="_blank" rel="noopenner noreferrer">
+                <img src="img/icons/whatsapp.svg" alt="whatsapp-logo" />
+                +51 931 416 152
+            </a>
         </div>
     </div>
 </header>
@@ -106,10 +113,11 @@
         background-color: var(--background-secondary-color);
         color: var(--text-secondary-color);
     }
-    .contact div {
+    .contact div, .contact div a {
         display: flex;
         align-items: center;
         gap: 10px;
+        color: var(--text-secondary-color);
     }
     @media (max-width: 600px) {
         .black-top {
@@ -144,7 +152,7 @@
             display: flex;
             flex-direction: column;
         }
-        .social{
+        .social {
             text-align: center;
         }
         .contact {

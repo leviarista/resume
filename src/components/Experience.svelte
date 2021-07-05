@@ -6,7 +6,22 @@
     <div class="experience-history">
         <div>
             <article>
-                <p><i>February 2020 - Present</i></p>
+                <p><i>June 2021 - Present</i></p>
+                <div>
+                    <img src="img/experience/bep.png" alt="bep-logo" />
+                    <p>
+                        <b>Fullstack Software Developer</b><br />
+                        Techstart (Outsourcing)<br />
+                        <i>For</i> Buyers Edge Platform<br />
+                        <br />
+                        <span class="tech-badge">React.js</span>
+                        <span class="tech-badge">Chrome Dev Extension</span>
+                        <span class="tech-badge">MySql</span>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <p><i>February 2020 - May 2021</i></p>
                 <div>
                     <img src="img/experience/ms4m.png" alt="ms4m-logo" />
                     <p>
@@ -28,7 +43,8 @@
                     <img src="img/experience/ms4m.png" alt="ms4m-logo" />
                     <p>
                         <b>FMS Administrator & Applications Analyst</b><br />
-                        Mine Sense for Miners [for GoldFields La Cima]<br />
+                        Mine Sense for Miners <br />
+                        In GoldFields La Cima<br />
                         <br />
                         <span class="tech-badge">PostgreSQL</span>
                         <span class="tech-badge">Sails.js</span>
@@ -54,6 +70,8 @@
                     </p>
                 </div>
             </article>
+        </div>
+        <div>
             <article>
                 <p><i>March 2017 - December 2017</i></p>
                 <div>
@@ -69,8 +87,6 @@
                     </p>
                 </div>
             </article>
-        </div>
-        <div>
             <article>
                 <p><i>March 2017 - December 2017</i></p>
                 <div>
@@ -136,6 +152,7 @@
         margin: 0;
     }
     .experience article div img {
+        width: 85px;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
     }
@@ -154,7 +171,7 @@
             padding-top: 15%;
             padding-bottom: 15%;
         }
-        .experience h2{
+        .experience h2 {
             margin-bottom: 0;
         }
         .experience .experience-history {
